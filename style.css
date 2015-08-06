@@ -1,0 +1,42 @@
+/* cssのコメントアウト */
+
+body {
+  width: 550px;
+  /* 
+  marginとは
+  コンテンツの外の領域を決めるスタイル
+  */
+  margin: 0 auto;
+
+}
+
+.title {
+  font-size: 60px;
+  margin: 0 auto;
+}
+
+/* htmlタグを使ってcssを適応する */
+.red {
+  color: red;
+}
+
+img {
+  width: 200px;
+}
+
+/* 
+classを指定してhtmlを装飾する
+ドット +  class名で指定
+ひとつのhtmlファイルの中にいくつでも同じ名前のclassを
+付けることができます
+ */
+.hogehoge {
+  font-size: 60px;
+  background-color: #00ff00;
+}
+
+#page-link {
+  border: 2px solid #000;
+  padding-left: 40px;
+}
+
